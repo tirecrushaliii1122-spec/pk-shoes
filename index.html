@@ -1,0 +1,1343 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>PK Shoes | Premium Footwear</title>
+
+    <meta name="description"
+        content="PK Shoes - Premium footwear designed for comfort, confidence and timeless style.">
+
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+
+    <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&family=Playfair+Display:ital,wght@0,500;0,600;0,700;1,500;1,600&display=swap"
+        rel="stylesheet">
+
+    <!-- CSS -->
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+
+    <!-- =========================================
+         TOP SHIPPING BAR
+    ========================================== -->
+
+    <div class="top-bar">
+        FREE SHIPPING ON ORDERS OVER $10
+    </div>
+
+
+
+    <!-- =========================================
+         HEADER
+    ========================================== -->
+
+    <header class="header">
+
+        <div class="header-inner">
+
+
+            <!-- Mobile Menu -->
+
+            <button class="mobile-menu-btn" id="mobileMenuBtn">
+                ☰
+            </button>
+
+
+            <!-- Logo -->
+
+            <a href="#home" class="logo">
+                PK Shoes
+            </a>
+
+
+            <!-- Navigation -->
+
+            <nav class="navigation" id="navigation">
+
+                <a href="#home" class="active">
+                    Home
+                </a>
+
+                <a href="#mens">
+                    Mens
+                </a>
+
+                <a href="#about">
+                    About
+                </a>
+
+                <a href="#contact">
+                    Contact Us
+                </a>
+
+            </nav>
+
+
+            <!-- Header Icons -->
+
+            <div class="header-icons">
+
+                <button class="header-icon" id="searchBtn" title="Search">
+                    ⌕
+                </button>
+
+                <button class="header-icon" title="Account">
+                    ♙
+                </button>
+
+                <button class="header-icon cart-icon" title="Wishlist">
+                    ♡
+                    <span id="cartCount">0</span>
+                </button>
+
+            </div>
+
+        </div>
+
+    </header>
+
+
+
+    <!-- =========================================
+         HERO SECTION
+    ========================================== -->
+
+    <section class="hero" id="home">
+
+        <div class="hero-overlay"></div>
+
+        <div class="hero-content">
+
+            <p class="hero-small-title">
+                THE NEW COLLECTION
+            </p>
+
+            <h1>
+                Step Into
+                <br>
+                <em>Something</em>
+                <br>
+                Better.
+            </h1>
+
+            <p class="hero-description">
+                Discover premium footwear designed for
+                everyday confidence, comfort and timeless style.
+            </p>
+
+            <a href="#mens" class="hero-button">
+                SHOP THE COLLECTION
+                <span>→</span>
+            </a>
+
+        </div>
+
+    </section>
+
+
+
+    <!-- =========================================
+         MENS SECTION
+    ========================================== -->
+
+    <main id="mens">
+
+
+        <!-- Breadcrumb -->
+
+        <div class="breadcrumb">
+
+            <a href="#home">
+                Home
+            </a>
+
+            <span>/</span>
+
+            <span>
+                Mens
+            </span>
+
+        </div>
+
+
+
+        <!-- Collection Heading -->
+
+        <section class="collection-heading">
+
+            <div>
+
+                <p class="section-label">
+                    PK SHOES COLLECTION
+                </p>
+
+                <h2>
+                    Men's Shoes
+                </h2>
+
+                <p class="collection-description">
+                    Explore our collection of premium sneakers,
+                    loafers, trainers, boots and everyday footwear.
+                </p>
+
+            </div>
+
+        </section>
+
+
+
+        <!-- =========================================
+             TOOLBAR
+        ========================================== -->
+
+        <section class="toolbar">
+
+            <button class="filter-toggle" id="filterToggle">
+                ☰ &nbsp; FILTER
+            </button>
+
+            <div class="item-count">
+                <strong id="itemCount">12</strong>
+                Items
+            </div>
+
+            <div class="sort-wrapper">
+
+                <label for="sortProducts">
+                    SORT BY
+                </label>
+
+                <select id="sortProducts">
+
+                    <option value="featured">
+                        Featured
+                    </option>
+
+                    <option value="low">
+                        Price Low to High
+                    </option>
+
+                    <option value="high">
+                        Price High to Low
+                    </option>
+
+                </select>
+
+            </div>
+
+        </section>
+
+
+
+        <!-- =========================================
+             SHOP AREA
+        ========================================== -->
+
+        <section class="shop-layout">
+
+
+            <!-- FILTER SIDEBAR -->
+
+            <aside class="filter-sidebar" id="filterSidebar">
+
+                <div class="filter-header">
+
+                    <h3>
+                        FILTER
+                    </h3>
+
+                    <button id="closeFilters">
+                        ×
+                    </button>
+
+                </div>
+
+
+
+                <!-- Category -->
+
+                <div class="filter-group">
+
+                    <button class="filter-title">
+                        CATEGORY
+                        <span>−</span>
+                    </button>
+
+                    <div class="filter-content">
+
+                       
+
+                        <label>
+                            <input type="checkbox"
+                                value="BOYS SHOES"
+                                class="category-filter">
+                            BOYS SHOES
+                        </label>
+
+                        <label>
+                            <input type="checkbox"
+                                value="SHOES"
+                                class="category-filter">
+                            SHOES
+                        </label>
+
+                        <label>
+                            <input type="checkbox"
+                                value="EASY STEP"
+                                class="category-filter">
+                            EASY STEP
+                        </label>
+
+                    </div>
+
+                </div>
+
+
+
+                <!-- Size -->
+
+                <div class="filter-group">
+
+                    <button class="filter-title">
+                        SIZE
+                        <span>−</span>
+                    </button>
+
+                    <div class="size-grid">
+
+                        <button>35</button>
+                        <button>40</button>
+                        <button>45</button>
+                        <button>41</button>
+                        <button>42</button>
+                      
+
+                    </div>
+
+                </div>
+
+
+
+                <!-- Price -->
+
+                <div class="filter-group">
+
+                    <button class="filter-title">
+                        PRICE
+                        <span>−</span>
+                    </button>
+
+                    <div class="price-filter">
+
+                        <div class="price-inputs">
+
+                            <input
+                                type="number"
+                                id="minPrice"
+                                placeholder="Min">
+
+                            <span>—</span>
+
+                            <input
+                                type="number"
+                                id="maxPrice"
+                                placeholder="Max">
+
+                        </div>
+
+                        <button
+                            class="apply-btn"
+                            id="applyPrice">
+
+                            APPLY
+
+                        </button>
+
+                    </div>
+
+                </div>
+
+
+
+                <!-- Color -->
+
+                <div class="filter-group">
+
+                    <button class="filter-title">
+                        COLOR
+                        <span>−</span>
+                    </button>
+
+                    <div class="color-options">
+
+                        <button class="color black"></button>
+
+                        <button class="color white"></button>
+
+                        <button class="color brown"></button>
+
+                        <button class="color beige"></button>
+
+                        <button class="color navy"></button>
+
+                    </div>
+
+                </div>
+
+
+
+                <!-- Clear -->
+
+                <button
+                    class="clear-filters"
+                    id="clearFilters">
+
+                    CLEAR ALL
+
+                </button>
+
+            </aside>
+
+
+
+            <!-- PRODUCT AREA -->
+
+            <div class="product-area">
+
+                <div
+                    class="product-grid"
+                    id="productGrid">
+
+
+                    <!-- PRODUCT 1 -->
+
+                    <article
+                        class="product-card"
+                        data-category="Shoes"
+                        data-price="129">
+
+                        <div class="product-image">
+
+                            <span class="badge">
+                                NEW
+                            </span>
+
+                            <button class="wishlist">
+                                ♡
+                            </button>
+
+                            <img
+                                src="images/product1.jpg.png"
+                                alt="shoes">
+
+                            <button class="quick-add">
+                                QUICK ADD
+                            </button>
+
+                        </div>
+
+                        <div class="product-info">
+
+                            <p class="product-category">
+                                PK SHOES
+                            </p>
+
+                            <h3>
+                            EREXON SHOES
+                            </h3>
+
+                            <div class="rating">
+                                ★★★★★
+                            </div>
+
+                            <div class="price">
+                                4500pkr/-
+                            
+                            </div>
+
+                            <button class="add-cart">
+                                ADD TO BAG
+                            </button>
+
+                        </div>
+
+                    </article>
+
+
+
+                    <!-- PRODUCT 2 -->
+
+                    <article
+                        class="product-card"
+                        data-category="Loafers"
+                        data-price="149">
+
+                        <div class="product-image">
+
+                            <span class="badge sale-badge">
+                                SALE
+                            </span>
+
+                            <button class="wishlist">
+                                ♡
+                            </button>
+
+                            <img
+                                src="images/product2.jpg.jpg"
+                                alt="Premium Leather Loafer">
+
+                            <button class="quick-add">
+                                QUICK ADD
+                            </button>
+
+                        </div>
+
+                        <div class="product-info">
+
+                            <p class="product-category">
+                                PK SHOES
+                            </p>
+
+                            <h3>
+                                LATHER SHOES
+                            </h3>
+
+                            <div class="rating">
+                                ★★★★★
+                            </div>
+
+                            <div class="price">
+                                4450pkr/-
+                                
+                            </div>
+
+                            <button class="add-cart">
+                                ADD TO BAG
+                            </button>
+
+                        </div>
+
+                    </article>
+
+
+
+                    <!-- PRODUCT 3 -->
+
+                    <article
+                        class="product-card"
+                        data-category="Trainers"
+                        data-price="119">
+
+                        <div class="product-image">
+
+                            <button class="wishlist">
+                                ♡
+                            </button>
+
+                            <img
+                                src="images/product3.jpeg"
+                                alt="Urban Trainer">
+
+                            <button class="quick-add">
+                                QUICK ADD
+                            </button>
+
+                        </div>
+
+                        <div class="product-info">
+
+                            <p class="product-category">
+                                PK SHOES
+                            </p>
+
+                            <h3>
+                                EASY STEP
+                            
+                            </h3>
+
+                            <div class="rating">
+                                ★★★★☆
+                            </div>
+
+                            <div class="price">
+                                5000pkr/-
+                            </div>
+
+                            <button class="add-cart">
+                                ADD TO BAG
+                            </button>
+
+                        </div>
+
+                    </article>
+
+
+
+                    <!-- PRODUCT 4 -->
+
+                    <article
+                        class="product-card"
+                        data-category="Sneakers"
+                        data-price="159">
+
+                        <div class="product-image">
+
+                            <span class="badge">
+                                BESTSELLER
+                            </span>
+
+                            <button class="wishlist">
+                                ♡
+                            </button>
+
+                            <img
+                                src="images/product4.jpeg"
+                                alt="Street Sneaker">
+
+                            <button class="quick-add">
+                                QUICK ADD
+                            </button>
+
+                        </div>
+
+                        <div class="product-info">
+
+                            <p class="product-category">
+                                PK SHOES
+                            </p>
+
+                            <h3>
+                                LIFE WEAR
+                            </h3>
+
+                            <div class="rating">
+                                ★★★★★
+                            </div>
+
+                            <div class="price">
+                                4250pkr/-
+                            </div>
+
+                            <button class="add-cart">
+                                ADD TO BAG
+                            </button>
+
+                        </div>
+
+                    </article>
+
+
+
+                    <!-- PRODUCT 5 -->
+
+                    <article
+                        class="product-card"
+                        data-category="Sandals"
+                        data-price="89">
+
+                        <div class="product-image">
+
+                            <button class="wishlist">
+                                ♡
+                            </button>
+
+                            <img
+                                src="images/product5.jpeg"
+                                alt="Comfort Sandal">
+
+                            <button class="quick-add">
+                                QUICK ADD
+                            </button>
+
+                        </div>
+
+                        <div class="product-info">
+
+                            <p class="product-category">
+                                PK SHOES
+                            </p>
+
+                            <h3>
+                                MK SPORTS
+                            </h3>
+
+                            <div class="rating">
+                                ★★★★☆
+                            </div>
+
+                            <div class="price">
+                                4000pkr/-
+                            </div>
+
+                            <button class="add-cart">
+                                ADD TO BAG
+                            </button>
+
+                        </div>
+
+                    </article>
+
+
+
+                    <!-- PRODUCT 6 -->
+
+                    <article
+                        class="product-card"
+                        data-category="Boots"
+                        data-price="179">
+
+                        <div class="product-image">
+
+                            <span class="badge">
+                                NEW
+                            </span>
+
+                            <button class="wishlist">
+                                ♡
+                            </button>
+
+                            <img
+                                src="images/product6.jpeg"
+                                alt="Chelsea Boot">
+
+                            <button class="quick-add">
+                                QUICK ADD
+                            </button>
+
+                        </div>
+
+                        <div class="product-info">
+
+                            <p class="product-category">
+                                PK SHOES
+                            </p>
+
+                            <h3>
+                                EREXON
+                            </h3>
+
+                            <div class="rating">
+                                ★★★★★
+                            </div>
+
+                            <div class="price">
+                                4300pkr/-
+                            </div>
+
+                            <button class="add-cart">
+                                ADD TO BAG
+                            </button>
+
+                        </div>
+
+                    </article>
+
+
+
+                    <!-- PRODUCT 7 -->
+
+                    <article
+                        class="product-card"
+                        data-category="Sneakers"
+                        data-price="139">
+
+                        <div class="product-image">
+
+                            <button class="wishlist">
+                                ♡
+                            </button>
+
+                            <img
+                                src="images/product7.jpeg"
+                                alt="Court Sneaker">
+
+                            <button class="quick-add">
+                                QUICK ADD
+                            </button>
+
+                        </div>
+
+                        <div class="product-info">
+
+                            <p class="product-category">
+                                PK SHOES
+                            </p>
+
+                            <h3>
+                                FWD SHOES
+                            </h3>
+
+                            <div class="rating">
+                                ★★★★★
+                            </div>
+
+                            <div class="price">
+                                4550pkr/-
+                            </div>
+
+                            <button class="add-cart">
+                                ADD TO BAG
+                            </button>
+
+                        </div>
+
+                    </article>
+
+
+
+                    <!-- PRODUCT 8 -->
+
+                    <article
+                        class="product-card"
+                        data-category="Loafers"
+                        data-price="139">
+
+                        <div class="product-image">
+
+                            <span class="badge sale-badge">
+                                30% OFF
+                            </span>
+
+                            <button class="wishlist">
+                                ♡
+                            </button>
+
+                            <img
+                                src="images/product8.jpeg"
+                                alt="Suede Loafer">
+
+                            <button class="quick-add">
+                                QUICK ADD
+                            </button>
+
+                        </div>
+
+                        <div class="product-info">
+
+                            <p class="product-category">
+                                PK SHOES
+                            </p>
+
+                            <h3>
+                                FASHION
+                            </h3>
+
+                            <div class="rating">
+                                ★★★★☆
+                            </div>
+
+                            <div class="price">
+                                <del>$199</del>
+                                3800pkr/-
+                            </div>
+
+                            <button class="add-cart">
+                                ADD TO BAG
+                            </button>
+
+                        </div>
+
+                    </article>
+
+
+
+                    <!-- PRODUCT 9 -->
+
+                    <article
+                        class="product-card"
+                        data-category="Trainers"
+                        data-price="109">
+
+                        <div class="product-image">
+
+                            <button class="wishlist">
+                                ♡
+                            </button>
+
+                            <img
+                                src="images/product9.jpeg"
+                                alt="Daily Trainer">
+
+                            <button class="quick-add">
+                                QUICK ADD
+                            </button>
+
+                        </div>
+
+                        <div class="product-info">
+
+                            <p class="product-category">
+                                PK SHOES
+                            </p>
+
+                            <h3>
+                                MK SHOES
+                            </h3>
+
+                            <div class="rating">
+                                ★★★★★
+                            </div>
+
+                            <div class="price">
+                                4150pkr/-
+                            </div>
+
+                            <button class="add-cart">
+                                ADD TO BAG
+                            </button>
+
+                        </div>
+
+                    </article>
+
+
+
+                    <!-- PRODUCT 10 -->
+
+                    <article
+                        class="product-card"
+                        data-category="Sneakers"
+                        data-price="149">
+
+                        <div class="product-image">
+
+                            <span class="badge">
+                                NEW
+                            </span>
+
+                            <button class="wishlist">
+                                ♡
+                            </button>
+
+                            <img
+                                src="images/product10.jpeg"
+                                alt="Premium Runner">
+
+                            <button class="quick-add">
+                                QUICK ADD
+                            </button>
+
+                        </div>
+
+                        <div class="product-info">
+
+                            <p class="product-category">
+                                PK SHOES
+                            </p>
+
+                            <h3>
+                               EREXON DESIGN
+                            </h3>
+
+                            <div class="rating">
+                                ★★★★★
+                            </div>
+
+                            <div class="price">
+                                5000pkr/-
+                            </div>
+
+                            <button class="add-cart">
+                                ADD TO BAG
+                            </button>
+
+                        </div>
+
+                    </article>
+
+
+
+                    <!-- PRODUCT 11 -->
+
+                    <article
+                        class="product-card"
+                        data-category="Boots"
+                        data-price="189">
+
+                        <div class="product-image">
+
+                            <button class="wishlist">
+                                ♡
+                            </button>
+
+                            <img
+                                src="images/product11.jpeg"
+                                alt="Leather Boot">
+
+                            <button class="quick-add">
+                                QUICK ADD
+                            </button>
+
+                        </div>
+
+                        <div class="product-info">
+
+                            <p class="product-category">
+                                PK SHOES
+                            </p>
+
+                            <h3>
+                                LIFE WEAR
+                            </h3>
+
+                            <div class="rating">
+                                ★★★★☆
+                            </div>
+
+                            <div class="price">
+                                3950pkr/-
+                            </div>
+
+                            <button class="add-cart">
+                                ADD TO BAG
+                            </button>
+
+                        </div>
+
+                    </article>
+
+
+
+                    <!-- PRODUCT 12 -->
+
+                    <article
+                        class="product-card"
+                        data-category="Sandals"
+                        data-price="99">
+
+                        <div class="product-image">
+
+                            <span class="badge sale-badge">
+                                SALE
+                            </span>
+
+                            <button class="wishlist">
+                                ♡
+                            </button>
+
+                            <img
+                                src="images/product12.jpeg"
+                                alt="Summer Sandal">
+
+                            <button class="quick-add">
+                                QUICK ADD
+                            </button>
+
+                        </div>
+
+                        <div class="product-info">
+
+                            <p class="product-category">
+                                PK SHOES
+                            </p>
+
+                            <h3>
+                                WDA SHOES
+                            </h3>
+
+                            <div class="rating">
+                                ★★★★★
+                            </div>
+
+                            <div class="price">
+                                <del>$139</del>
+                                4300pkr/-
+                            </div>
+
+                            <button class="add-cart">
+                                ADD TO BAG
+                            </button>
+
+                        </div>
+
+                    </article>
+
+                </div>
+
+            </div>
+
+        </section>
+
+    </main>
+
+
+
+    <!-- =========================================
+         ABOUT
+    ========================================== -->
+
+    <section class="about-section" id="about">
+
+        <div class="about-image">
+            <img
+                src="images/about.jpg"
+                alt="PK Shoes">
+        </div>
+
+        <div class="about-content">
+
+            <p class="section-label">
+                ABOUT PK SHOES
+            </p>
+
+            <h2>
+                Designed for
+                <em>every step.</em>
+            </h2>
+
+            <p>
+                PK Shoes brings together modern design,
+                premium materials and everyday comfort.
+                Our goal is simple — create footwear
+                that looks great and feels even better.
+            </p>
+
+            <a href="#mens" class="dark-button">
+                EXPLORE COLLECTION
+            </a>
+
+        </div>
+
+    </section>
+
+
+
+    <!-- =========================================
+         CONTACT
+    ========================================== -->
+
+    <section class="contact-section" id="contact">
+
+        <div class="contact-content">
+
+            <p class="section-label">
+                GET IN TOUCH
+            </p>
+
+            <h2>
+                Contact PK Shoes
+            </h2>
+
+            <p>
+                Have a question about an order, product
+                or size? Our team is here to help.
+            </p>
+
+            <div class="contact-info">
+
+                <div>
+                    <strong>Email</strong>
+                    <span></span>
+                </div>
+
+                <div>
+                    <strong>Phone</strong>
+                    <span>+92 306 1088881</span>
+                </div>
+
+            </div>
+
+        </div>
+
+    </section>
+
+
+
+    <!-- =========================================
+         NEWSLETTER
+    ========================================== -->
+
+    <section class="newsletter">
+
+        <div class="newsletter-content">
+
+            <p class="section-label">
+                STAY IN THE LOOP
+            </p>
+
+            <h2>
+                Join the PK Shoes list.
+            </h2>
+
+            <p>
+                Get updates about new collections,
+                special offers and exclusive releases.
+            </p>
+
+            <form id="newsletterForm">
+
+                <input
+                    type="email"
+                    placeholder="Enter your email address"
+                    required>
+
+                <button type="submit">
+                    SIGN UP
+                </button>
+
+            </form>
+
+        </div>
+
+    </section>
+
+
+
+    <!-- =========================================
+         FOOTER
+    ========================================== -->
+
+    <footer class="footer">
+
+        <div class="footer-main">
+
+
+            <div class="footer-brand">
+
+                <a href="#home" class="footer-logo">
+                    PK Shoes
+                </a>
+
+                <p>
+                    Premium footwear for every step.
+                    Designed with style. Built for comfort.
+                </p>
+
+                <div class="social-links">
+
+                    <a href="#">
+                        Instagram
+                    </a>
+
+                    <a href="#">
+                        Facebook
+                    </a>
+
+                    <a href="#">
+                        TikTok
+                    </a>
+
+                </div>
+
+            </div>
+
+
+
+            <div class="footer-column">
+
+                <h4>
+                    SHOP
+                </h4>
+
+                <a href="#home">
+                    Home
+                </a>
+
+                <a href="#mens">
+                    Mens
+                </a>
+
+                <a href="#about">
+                    About
+                </a>
+
+                <a href="#contact">
+                    Contact Us
+                </a>
+
+            </div>
+
+
+
+            <div class="footer-column">
+
+                <h4>
+                    HELP
+                </h4>
+
+                <a href="#">
+                    Shipping
+                </a>
+
+                <a href="#">
+                    Returns
+                </a>
+
+                <a href="#">
+                    Size Guide
+                </a>
+
+                <a href="#">
+                    FAQ
+                </a>
+
+            </div>
+
+
+
+            <div class="footer-column">
+
+                <h4>
+                    PK SHOES
+                </h4>
+
+                <a href="#about">
+                    Our Story
+                </a>
+
+                <a href="#">
+                    Privacy
+                </a>
+
+                <a href="#">
+                    Terms
+                </a>
+
+                <a href="#contact">
+                   Contact
+                </a>
+
+            </div>
+
+        </div>
+
+
+
+        <div class="footer-bottom">
+
+            <p>
+                © 2026 PK Shoes. All rights reserved.
+            </p>
+
+            <div>
+
+                <a href="#">
+                    Privacy Policy
+                </a>
+
+                <a href="#">
+                    Terms & Conditions
+                </a>
+
+            </div>
+
+        </div>
+
+    </footer>
+
+
+
+    <!-- JavaScript -->
+
+    <script src="script.js"></script>
+
+</body>
+
+</html>
